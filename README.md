@@ -6,5 +6,6 @@ Second project from Odin Project: Foundations course. Using only HTML and CSS to
 
 ## Finished project
 
-### Hosting at:
+### Available at:
 
+https://leonardobalves.github.io/odin-landing-page/

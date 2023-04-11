@@ -11,7 +11,7 @@
     box-sizing: inherit;
 }
 
-h1, p, a, button {
+h1, h4, p, a, button {
     margin: 5px;
 }
 
@@ -69,7 +69,7 @@ header a {
     font-weight: 900;
 }
 
-#section-one-left button {
+.btn {
     background-color: #3882F6;
     padding: 5px 35px;
     border-radius: 8px;
@@ -79,11 +79,11 @@ header a {
     cursor: pointer;
 }
 
-#section-one-left button:hover {
+.btn:hover {
     background-color: #387bf6;
 }
 
-#section-one-left button:active {
+.btn:active {
     background-color: #3882F6;
     transform: translateY(2px);
 }
@@ -158,4 +158,20 @@ header a {
 #section-three-text-quote {
     text-align: end;
     margin: 0px 50px 50px 50px;
+}
+
+#section-four {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 75px;
+    padding: 30px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+#btn-sign-up {
+    border: 2px solid #E5E7EB;
 }

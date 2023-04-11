@@ -11,6 +11,10 @@
     box-sizing: inherit;
 }
 
+h1, p, a, button {
+    margin: 5px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -43,31 +47,29 @@ header a {
     font-size: 18px;
 }
 
-.top {
+.top-and-footer {
     background-color: #1F2937;
 }
 
-#top-section {
+#section-one {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     color: #F9FAF8;
 }
 
-#top-left-section {
-    margin: 30px;
-    padding: 50px;
+#section-one-left {
+    width: 50%;
+    margin: 50px;
+    padding: 25px;
 }
 
-#top-left-section h1, p, button {
-    margin: 5px;
-}
-#top-left-section h1{
-    font-size: 70px;
+#hero {
+    font-size: 48px;
     font-weight: 900;
 }
 
-#top-left-section button {
+#section-one-left button {
     background-color: #3882F6;
     padding: 5px 35px;
     border-radius: 8px;
@@ -77,11 +79,83 @@ header a {
     cursor: pointer;
 }
 
-#top-right-section {
-    white-space: nowrap;
-    margin: 15px;
-    padding: 50px 200px;
-    background-color: #e5e7eb81;
+#section-one-left button:hover {
+    background-color: #387bf6;
+}
+
+#section-one-left button:active {
+    background-color: #3882F6;
+    transform: translateY(2px);
+}
+
+#section-one-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 50px;
+}
+
+#section-one-right span {
     font-size: 18px;
+    background-color: #e5e7eb81;
     color: #E5E7EB;
+    padding: 15%;
+    margin: 10%;
+}
+
+#section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+#section-two h2 {
+    margin: 10px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+#section-two-cards {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.box {
+    background-color: inherit;
+    border: thick solid #387bf6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#section-three {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 65px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#section-three-text {
+    margin: 50px;
+}
+
+#section-three-text-quote {
+    text-align: end;
+    margin: 0px 50px 50px 50px;
 }

@@ -175,3 +175,10 @@ header a {
 #btn-sign-up {
     border: 2px solid #E5E7EB;
 }
+
+footer {
+    padding: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #F9FAF8;
+}
